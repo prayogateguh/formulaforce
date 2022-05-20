@@ -1,0 +1,28 @@
+image:
+    file: .gitpod.Dockerfile
+
+tasks:
+    - before: |
+          python -m pip install --upgrade pip
+          pip install pandas
+          sfdx update
+          npm install -g npm@latest
+          npm install
+
+vscode:
+    extensions:
+        - eamodio.gitlens
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-core-53.8.1.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-apex-53.8.1.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-apex-debugger-53.8.1.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-apex-replay-debugger-53.8.1.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-lwc-53.8.1.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-lightning-53.8.1.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-visualforce-53.8.1.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforce-vscode-slds-1.4.8.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/financialforce.lana-1.3.5.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/esbenp.prettier-vscode-9.0.0.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/dbaeumer.vscode-eslint-2.2.2.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/chuckjonas.apex-pmd-0.5.8.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/redhat.vscode-xml-0.18.2.vsix
+        - vscode-icons-team.vscode-icons
