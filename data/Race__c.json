@@ -1,0 +1,49 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "bn2gpv1__Race__c",
+                "referenceId": "bn2gpv1__Race__cRef1"
+            },
+            "Name": "Spa",
+            "bn2gpv1__Season__c" : "@bn2gpv1__Season__cRef1",
+            "bn2gpv1__FastestLapBy__c": "@bn2gpv1__Driver__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "bn2gpv1__Race__c",
+                "referenceId": "bn2gpv1__Race__cRef2"
+            },
+            "Name": "Melbourne",
+            "bn2gpv1__Season__c" : "@bn2gpv1__Season__cRef1",
+            "bn2gpv1__FastestLapBy__c": "@bn2gpv1__Driver__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "bn2gpv1__Race__c",
+                "referenceId": "bn2gpv1__Race__cRef3"
+            },
+            "Name": "Shanghai",
+            "bn2gpv1__Season__c" : "@bn2gpv1__Season__cRef1",
+            "bn2gpv1__FastestLapBy__c": "@bn2gpv1__Driver__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "bn2gpv1__Race__c",
+                "referenceId": "bn2gpv1__Race__cRef4"
+            },
+            "Name": "Monte Carlo",
+            "bn2gpv1__Season__c" : "@bn2gpv1__Season__cRef1",
+            "bn2gpv1__FastestLapBy__c": "@bn2gpv1__Driver__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "bn2gpv1__Race__c",
+                "referenceId": "bn2gpv1__Race__cRef5"
+            },
+            "Name": "Budapest",
+            "bn2gpv1__Season__c" : "@bn2gpv1__Season__cRef1",
+            "bn2gpv1__FastestLapBy__c": "@bn2gpv1__Driver__cRef1"
+        }
+    ]
+}

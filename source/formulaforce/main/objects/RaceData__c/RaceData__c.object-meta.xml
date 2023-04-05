@@ -51,16 +51,17 @@
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
-    <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Season</label>
+    <label>Race Data</label>
     <nameField>
-        <label>Season Name</label>
-        <type>Text</type>
+        <displayFormat>RDID-{00000000}</displayFormat>
+        <label>Race Data Id</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Seasons</pluralLabel>
+    <pluralLabel>Race Data</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
