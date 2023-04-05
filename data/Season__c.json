@@ -1,0 +1,12 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "bn2gpv1__Season__c",
+                "referenceId": "bn2gpv1__Season__cRef1"
+            },
+            "Name": "2019",
+            "bn2gpv1__Year__c": "2019"
+        }
+    ]
+}

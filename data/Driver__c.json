@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "bn2gpv1__Driver__c",
+                "referenceId": "bn2gpv1__Driver__cRef1"
+            },
+            "Name": "Lewis Hamilton",
+            "bn2gpv1__TwitterHandle__c": "LewisHamilton",
+            "bn2gpv1__Nationality__c": "British"
+        }
+    ]
+}
