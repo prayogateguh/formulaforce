@@ -1,0 +1,2 @@
+sfdx force:org:create --definitionfile config/project-scratch-def.json --setalias test --noancestors --nonamespace
+sfdx force:package:install --package "FormulaForce App@0.1.0-1" --publishwait 10 --wait 10 --targetusername test

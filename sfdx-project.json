@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "path": "source/formulaforce",
+      "package": "FormulaForce App",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "FormulaForce App",
+      "ancestorVersion": "HIGHEST",
+      "default": true
+    }
+  ],
+  "namespace": "bn2gpv1",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "56.0",
+  "packageAliases": {
+    "FormulaForce App": "0Ho2w000000bmSJCAY",
+    "FormulaForce App@0.1.0-1": "04t2w000008mpT5AAI"
+  }
+}
